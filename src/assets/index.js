@@ -28,6 +28,9 @@ import nickelfox from "./company/nickelfox.png";
 import newgen from "./company/newgen.png";
 import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
+import bitsolve from "./company/bitsolve.jpg";
+import mgm from "./company/mgm.png";
+import mayura from "./company/mayura.png";
 
 import aptihealthWeb from "./projects/aptihealthWeb.png";
 import travel from "./projects/travel.png";
@@ -78,4 +81,7 @@ export {
   zealApp,
   rollWeb,
   rollApp,
+  mayura,
+  bitsolve,
+  mgm,
 };

@@ -30,6 +30,9 @@ import {
   travel,
   sciencecollege,
   cnergee,
+  bitsolve,
+  mayura,
+  mgm,
 } from "../assets";
 
 const navigationPaths = {
@@ -125,7 +128,7 @@ const experiences = [
     title: "Front-End Engineer",
     company_name: "Mayura Consultancy Services",
     company_website: "https://www.mayuraconsultancy.com/",
-    icon: crmnext,
+    icon: mayura,
     iconBg: "#E6DEDD",
     date: "Sep 2024 - Present",
     points: [
@@ -141,7 +144,7 @@ const experiences = [
     title: "Full-Stack Developer Intern",
     company_name: "Bitsolve Technologies Pvt. Ltd.",
     company_website: "https://bitsolve.in/",
-    icon: nickelfox,
+    icon: bitsolve,
     iconBg: "#E6DEDD",
     date: "Feb 2024 - May 2024",
     points: [
@@ -156,7 +159,7 @@ const experiences = [
     title: "Student",
     company_name: "MGM's college Of Engineering, Nanded",
     company_website: "https://mgmcen.ac.in/",
-    icon: newgen,
+    icon: mgm,
     iconBg: "#E6DEDD",
     date: "June 2020 - June 2024",
     points: [
