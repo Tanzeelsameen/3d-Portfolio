@@ -41,7 +41,7 @@ import zealWeb from "./projects/zealWeb.png";
 import zealApp from "./projects/zealApp.png";
 import rollWeb from "./projects/rollWeb.png";
 import rollApp from "./projects/rollApp.png";
-
+import extension from "./projects/extension.jpg";
 export {
   logo,
   backend,
@@ -84,4 +84,5 @@ export {
   mayura,
   bitsolve,
   mgm,
+  extension,
 };

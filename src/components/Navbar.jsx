@@ -27,9 +27,35 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <p className="text-white text-[18px] font-bold cursor-pointer flex items-center gap-2">
             {personalInfo.name} &nbsp;
             <span className="lg:block hidden">| {personalInfo.role}</span>
+            <div className="flex gap-2 ml-2">
+              <a
+                href={publicUrls.socialProfiles.linkedin.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-6 h-6 hover:opacity-80 transition-opacity"
+              >
+                <img
+                  src={publicUrls.socialProfiles.linkedin.icon}
+                  alt="LinkedIn"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+              <a
+                href={publicUrls.socialProfiles.github.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-6 h-6 hover:opacity-80 transition-opacity"
+              >
+                <img
+                  src={publicUrls.socialProfiles.github.icon}
+                  alt="GitHub"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+            </div>
           </p>
         </Link>
 

@@ -33,6 +33,7 @@ import {
   bitsolve,
   mayura,
   mgm,
+  extension,
 } from "../assets";
 
 const navigationPaths = {
@@ -221,6 +222,28 @@ const projects = [
     image: travel,
     hosted_link: "https://travel-planner-agent.netlify.app/",
   },
+   {
+    name: "AI-Content Summarizer",
+    description:
+      "Developed an AI-powered content summarizer that extracts key information from lengthy articles, research papers, and documents. The tool uses advanced natural language processing techniques to provide concise summaries, making it easier for users to grasp essential points quickly. Developed an AI-powered Chrome Extension using Google's Gemini API to summarize web content in real-time, offering three summarizartion modes (brief,detailed,bullet) and improving content comprehension by 60%.   ",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: extension,
+    hosted_link:
+      "https://github.com/Tanzeelsameen/concise-insight-chrome",
+  },
   {
     name: " Learning Management System",
     description:
@@ -261,73 +284,52 @@ const projects = [
       },
     ],
     image: cnergee,
-    hosted_link: "https://getzeal.co/",
+    hosted_link: "https://www.cnergeeglobal.com/",
   },
-  {
-    name: "Zeal App",
-    description:
-      "Discover a world of activities with friends through Zeal, an engaging platform. Create events, post updates, chat, and enjoy in-person activities hassle-free. Boost your social life with Zeal!",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sendgrid",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zealApp,
-    hosted_link:
-      "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
-  },
-  {
-    name: "Roll Web",
-    description:
-      "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "formik",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rollWeb,
-    hosted_link: "https://app.tryroll.com/",
-  },
-  {
-    name: "Roll App",
-    description:
-      "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
-    tags: [
-      {
-        name: "react-native-web",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "storybook",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rollApp,
-    hosted_link:
-      "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
-  },
+ 
+  // {
+  //   name: "Roll Web",
+  //   description:
+  //     "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
+  //   tags: [
+  //     {
+  //       name: "reactjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "formik",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: rollWeb,
+  //   hosted_link: "https://app.tryroll.com/",
+  // },
+  // {
+  //   name: "Roll App",
+  //   description:
+  //     "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
+  //   tags: [
+  //     {
+  //       name: "react-native-web",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "storybook",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: rollApp,
+  //   hosted_link:
+  //     "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
+  // },
 ];
 
 const personalInfo = {
@@ -347,7 +349,7 @@ const personalInfo = {
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1Gp6p2w-Sm4bCmGnF_kdK1auilsmy6Ec-/view?usp=sharing",
+    "https://drive.google.com/file/d/1hzrgAtQdExN1Qf5hbSPRPU5Rq8UdUQXi/view?usp=sharing",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
